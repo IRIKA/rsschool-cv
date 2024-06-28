@@ -1,6 +1,6 @@
 # Iryna Shyrshova
 
-![photo](/assets/images/photo.jpg)
+![photo](/images/photo.jpg)
 
 ## Personal information
 **Address**: Ukraine, Kharkiv 
