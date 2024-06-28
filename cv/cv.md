@@ -6,6 +6,7 @@ Email: renniesheppard@gmail.com
 Phone: (+380)66-823-53-99
 LinkedIn: https://www.linkedin.com/in/iryna-shyrshova-27968880 
 GitHub: https://github.com/IRIKA
+Discord: renniesheppard
 
 Summary: 
 I'm C# .NET full-stack developer. I live and breathe programming. I develop and gain new knowledge. My goal is to find a great team and an interesting project.
