@@ -1,6 +1,6 @@
 # Iryna Shyrshova
 
-![photo](/images/photo.jpg)
+![photo](./images/photo.jpg)
 
 ## Personal information
 
