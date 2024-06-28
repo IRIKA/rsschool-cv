@@ -1,6 +1,6 @@
 # Iryna Shyrshova
 
-![photo](./images/photo.jpg)
+<img src="/images/photo.jpg" alt="photo" style="width:300px;height:auto;">
 
 ## Personal information
 
