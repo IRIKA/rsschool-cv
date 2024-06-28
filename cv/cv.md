@@ -1,6 +1,6 @@
 # Iryna Shyrshova
 
-<img src="/images/photo.jpg" alt="photo" style="width:300px;height:auto;">
+<img src="./images/photo.jpg" alt="photo" style="width:300px;height:auto;">
 
 ## Personal information
 
