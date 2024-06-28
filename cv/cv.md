@@ -3,17 +3,27 @@
 ![photo](/images/photo.jpg)
 
 ## Personal information
-**Address**: Ukraine, Kharkiv 
+
+**Address**: Ukraine, Kharkiv
+
 **Email**: renniesheppard@gmail.com
+
 **Phone**: (+380)66-823-53-99
-**LinkedIn**: [iryna-shyrshova](https://www.linkedin.com/in/iryna-shyrshova-27968880) 
+
+**LinkedIn**: [iryna-shyrshova](https://www.linkedin.com/in/iryna-shyrshova-27968880)
+ 
 **GitHub**: [Rennie](https://github.com/IRIKA)
+
 **Discord**: renniesheppard
+
 ---
-## Summary: 
+## Summary:
+ 
 I'm C# .NET full-stack developer. I live and breathe programming. I develop and gain new knowledge. My goal is to find a great team and an interesting project.
+
 ---
 ## Key skills:
+
 * OOP, SOLID and Clean code principles
 * Languages: C#, Angular, JavaScript, TypeScript
 * Markup: HTML, CSS
@@ -22,17 +32,23 @@ I'm C# .NET full-stack developer. I live and breathe programming. I develop and 
 * Unit and Integration Testing
 * Demonstrated ability to: design REST API, create features for users with varying levels of access, design interface function
 * Software Development Methodologies: Kanban, SCRUM
+
 ---
 ## Soft skills:
+
 * great team player, effective communicator and problem solver
 * strong analytical skills, responsible and goal-oriented
 * self-organized and have good time management skills
 * have excellent active listening skills
 * resistant to stress and conflicts
+
 ---
 ## Code examples
+
 The function formats the date with/without time, with/without time zone.
+
 **Accepts parameters**: ***date, onlyDate, default is False, withTimeZone, default is False.***
+
 **Returns**: ***formatted date.***
 
 ```
@@ -58,28 +74,41 @@ function getFormatedDate(date, onlyDate = false, withTimeZone = false) {
     return formattedDate;
 }
 ```
+
 ---
 ## Work experience
 
 ### University program
+
 **Title**: "Catch moment"
+
 **Description**: An online platform for storing and viewing photo albums. You can view photos uploaded by other members of the platform or create your own albums. You can rate your favorite photos by liking them.
 
 ### EPAM SYSTEMS
+
 **Title**: "Game store"
+
 **Description**: An online store selling computer games. Here you can find games of any genre suitable for different platforms. You can also read customer reviews and share your own impressions.
 
 ### EPAM SYSTEMS
+
 **Title**: "Recipe Platform Project"
+
 **Description**: An online platform where users can share and discover new recipes. The platform allows users to upload their own recipes, browse and search for recipes uploaded by other users, rate and review recipes, and create a list of favorite recipes.
+
 ---
 ## Education:
+
 2001-2006 Kharkiv Institute of Finance KNTEU. Speciality: finance 
+
 ---
 ## Additional qualification: 
-C# courses
-Angular courses
+
+* C# courses
+* Angular courses
+
 ---
 ## Languages:
-Ukrainian - Native speaker
-English - B1 
+
+* Ukrainian - Native speaker
+* English - B1 
