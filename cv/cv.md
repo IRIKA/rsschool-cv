@@ -35,7 +35,8 @@ The function formats the date with/without time, with/without time zone.
 **Accepts parameters**: ***date, onlyDate, default is False, withTimeZone, default is False.***
 **Returns**: ***formatted date.***
 
-```function getFormatedDate(date, onlyDate = false, withTimeZone = false) {
+```
+function getFormatedDate(date, onlyDate = false, withTimeZone = false) {
     let year = date.getFullYear();
     let month = (date.getMonth() + 1).toString();
     let day = date.getDate().toString();
@@ -55,7 +56,8 @@ The function formats the date with/without time, with/without time zone.
         formattedDate = `${formattedDate}T${hour}${minute}${second}.${ms}`;
     }
     return formattedDate;
-}```
+}
+```
 ---
 ## Work experience
 
