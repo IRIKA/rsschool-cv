@@ -9,7 +9,7 @@ html {
 
 body {
   display: grid;
-  min-height: 100hv;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   justify-content: space-between;
