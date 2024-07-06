@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,139 @@
     <title>CV Iryna Shyrshova</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Iryna Shyrshova</h1>
+    <header>
+        <nav>
+            <ul class="main-menu">
+                <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li><a href="#summary" class="nav-link">Summary</a></li>
+                <li><a href="#key-skills" class="nav-link">Key skills</a></li>
+                <li><a href="#soft-skills" class="nav-link">Soft skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+
+        <div class="intro">
+            <img src="./images/photo.jpg" alt="photo">
+            <h1>Iryna Shyrshova</h1>
+        </div>
+
+        <h2>Contacts</h2>
+        <p><strong>Address</strong>: Ukraine, Kharkiv</p>
+        <p><strong>Email</strong>: renniesheppard@gmail.com</p>
+        <p><strong>Phone</strong>: (+380)66-823-53-99</p>
+        <p><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/iryna-shyrshova-27968880">iryna-shyrshova</a>
+        </p>
+        <p><strong>GitHub</strong>: <a href="https://github.com/IRIKA">Rennie</a></p>
+        <p><strong>Discord</strong>: renniesheppard</p>
+
+        <h2>Summary</h2>
+        <p>I'm C# .NET full-stack developer. I live and breathe programming. I develop and gain new knowledge. My goal
+            is to
+            find a great team and an interesting project.</p>
+
+        <h2>Key skills</h2>
+        <ul>
+            <li>OOP, SOLID and Clean code principles</li>
+            <li>Languages: C#, Angular, JavaScript, TypeScript</li>
+            <li>Markup: HTML, CSS</li>
+            <li>.NET Technologies: ASP.NET MVC/WebAPI, Entity Framework, LINQ</li>
+            <li>Databases: Microsoft SQL Server, PostgreSQL, MySQL, MongoDB</li>
+            <li>Unit and Integration Testing</li>
+            <li>Demonstrated ability to: design REST API, create features for users with varying levels of access,
+                design
+                interface function</li>
+            <li>Software Development Methodologies: Kanban, SCRUM</li>
+        </ul>
+
+        <h2>Soft skills</h2>
+        <ul>
+            <li>great team player, effective communicator and problem solver</li>
+            <li>strong analytical skills, responsible and goal-oriented</li>
+            <li>self-organized and have good time management skills</li>
+            <li>have excellent active listening skills</li>
+            <li>resistant to stress and conflicts</li>
+        </ul>
+
+        <h2>Code examples</h2>
+        <p>The function formats the date with/without time, with/without time zone.</p>
+        <p><strong>Accepts parameters</strong>: <em>date; onlyDate, default is False; withTimeZone, default is
+                False.</em>
+        </p>
+        <p><strong>Returns:</strong> <em>formatted date.</em></p>
+        <pre>
+            function getFormatedDate(date, onlyDate = false, withTimeZone = false) {
+                let year = date.getFullYear();
+                let month = (date.getMonth() + 1).toString();
+                let day = date.getDate().toString();
+                let formattedDate = `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
+                if (onlyDate) {
+                    return formattedDate;
+                }
+                let hour = ("0" + date.getHours()).slice(-2);
+                let minute = ("0" + date.getMinutes()).slice(-2);
+                let second = ("0" + date.getSeconds()).slice(-2);
+                if (withTimeZone) {
+                    let timezone = date.getTimezoneOffset() / 60;
+                    let formattedTime = `${hour}-${minute}-${second}`;
+                    formattedDate = `${formattedDate}-${formattedTime}-GMT${timezone}`;
+                } else {
+                    let ms = ("00" + date.getMilliseconds()).slice(-3);
+                    formattedDate = `${formattedDate}T${hour}${minute}${second}.${ms}`;
+                }
+                return formattedDate;
+            }</pre>
+
+        <h2>Work experience</h2>
+        <h4>University program</h4>
+        <p>Project <strong>"Catch moment"</strong></p>
+        <p>An online platform for storing and viewing photo albums. You can view photos
+            uploaded by other members of the platform or create your own albums. You can rate your favorite photos by
+            liking them.</p>
+        <h4>EPAM SYSTEMS</h4>
+        <p>Project <strong>"Game store"</strong></p>
+        <p>An online store selling computer games. Here you can find games of any genre
+            suitable for different platforms. You can also read customer reviews and share your own impressions.</p>
+        <p>Project <strong>"Recipe Platform Project"</strong></p>
+        <p>An online platform where users can share and discover new recipes. The platform
+            allows users to upload their own recipes, browse and search for recipes uploaded by other users, rate and
+            review recipes, and create a list of favorite recipes.</p>
+        <h4>RS SCHOOL</h4>
+        <p>Project <strong>"CV"</strong></p>
+        <p>The CV project is an innovative learning platform dedicated to building basic
+            front-end programming skills. Through interactive learning and practical application, it aims to teach key
+            competencies in HTML, CSS, JavaScript and other modern web development technologies, as well as help create
+            the first digital resume.</p>
+        <p><a href="https://github.com/IRIKA/rsschool-cv">link on CV</a></p>
+
+        <h2>Education</h2>
+        <p>2001-2006 Kharkiv Institute of Finance KNTEU. Speciality: finance</p>
+        <p>2022-2023 EPAM SYSTEMS LABARATORY. Speciality: C# .NET</p>
+
+        <h2>Languages</h2>
+        <ul>
+            <li>Ukrainian - native speaker</li>
+            <li>English - B1 (assessment)</li>
+        </ul>
+
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <p> © 2024 <a href="https://github.com/IRIKA">Rennie</a></p>
+            <p>
+                <a href="https://app.rs.school/course/student/dashboard?course=js-fe-preschool-2024q2">
+                    <img src="./images/logo-rsschool.png" alt="app.rs.school">
+                </a>
+            </p>
+        </div>
+    </footer>
 </body>
+
 </html>

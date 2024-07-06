@@ -1,4 +1,59 @@
+body {
+  display: grid;
+}
+
+header,
+footer {
+  display: grid;
+  height: 50px;
+}
+
+.main-menu {
+  display: grid;
+  grid-template-columns: 5fr repeat(6, 1fr);
+  gap: 3px;
+  justify-items: end;
+}
+
+.main-menu > ul > li::marker {
+  text-decoration: none;
+}
+
+.content {
+  display: grid;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.intro img {
+  height: 120px;
+  width: auto;
+  border-radius: 120px;
+}
+
 h1 {
-    text-align: center;
-    font-family: Arial;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial;
+}
+
+.main-menu li {
+  display: grid;
+  justify-content: center;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  justify-items: center;
+}
+
+.footer-grid img {
+  height: 30px;
 }
