@@ -108,8 +108,8 @@
               zone.</p>
             <p>Accepts parameters: <i>date; onlyDate, default is False; withTimeZone, default is False.</i></p>
             <p>Returns: <i>formatted date.</i></p>
-            <code>
-              <pre>
+            <pre>
+              <code>
   function getFormatedDate(date, onlyDate = false, withTimeZone = false)
   { 
     let year = date.getFullYear(); 
@@ -120,22 +120,22 @@
     if (onlyDate) {
       return formattedDate;
     }
-    let hour = ("0" + date.getHours()).slice(-2);
-    let minute = ("0" + date.getMinutes()).slice(-2);
-    let second = ("0" + date.getSeconds()).slice(-2);
+    let hour = ('0' + date.getHours()).slice(-2);
+    let minute = ('0' + date.getMinutes()).slice(-2);
+    let second = ('0' + date.getSeconds()).slice(-2);
     if (withTimeZone) {
       let timezone = date.getTimezoneOffset() / 60;
       let formattedTime = `${hour} - ${minute} - ${second}`;
       formattedDate = `${formattedDate} - ${formattedTime} -
          GMT${timezone}`;
     } else {
-      let ms = ("00" + date.getMilliseconds()).slice(-3);
+      let ms = ('00' + date.getMilliseconds()).slice(-3);
       formattedDate = `${formattedDate}T${hour}${minute}${second}.${ms}`;
     } 
     return formattedDate;
   }
-              </pre>
-            </code>
+              </code>
+            </pre>            
           </section>
 
           <section class="section" id="projects">
